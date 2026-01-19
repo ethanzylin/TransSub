@@ -13,7 +13,7 @@
 
 # TransSub
 
-macOS video subtitle extraction and translation tool.
+A free macOS video subtitle extraction and translation tool.
 
 ![Demo](Assets/demo.gif)
 
@@ -87,12 +87,13 @@ Recommended models:
    - **OpenAI API**: Configure API Key
 3. Import video, generate subtitles with one click:
 ![Quick Start](Assets/quick_start_en.png)
-4. (Optional) Configure VAD model, recommended Hugging Face download: **[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**
+4. (Optional) Configure VAD model, recommended Hugging Face download: **[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**.
+(Configure when there are many scenes without human voice in the video, or the recognition is not accurate enough.)
 
 
 > **Note**: ffmpeg needs to be installed via Homebrew, whisper.cpp comes with Metal acceleration built-in.
 
-## Ollama Local Translation Configuration
+## (Optional) Ollama Local Translation Model Configuration
 
 ```bash
 # 1. Start Ollama service
@@ -109,7 +110,7 @@ Recommended models:
 Ollama settings example:
 ![ollama](Assets/ollama_en.png)
 
-## OpenAI Compatible / OpenRouter Online Translation Configuration
+## OpenAI Compatible / OpenRouter API Key Configuration
 OpenAI compatible API settings example:
 ![openai](Assets/openai_en.png)
 
@@ -140,10 +141,16 @@ A: Recommended `qwen3:8b`, excellent Chinese/English translation with reasonable
 A: Tested on Macbook Pro M4 Pro, processing a 14-minute video with 244 dialogues, with VAD enabled, calling local Ollama (qwen3:8B) took 4 minutes, calling DeepSeek API (processing 20 dialogues at a time) took 3 minutes, with the speech processing stage taking about 1 minute.
 
 **Q: What translation services are supported?**
-A: Ollama local translation and OpenAI compatible API.
+A: Ollama local translation and OpenAI compatible/OpenRouter API.
 
 **Q: Is the subtitle format compatible?**
 A: Standard SRT format, works with VLC, IINA, MPV and other players.
+
+**Q: What to do when macOS says "Cannot verify developer"?**
+A: This is macOS security because the app hasn't been reviewed by Apple. Solution:
+1. Open "System Settings" > "Privacy & Security"
+2. Find the "Open Anyway" button in the Security section
+3. Click "Open Anyway" to confirm
 
 ## Feedback
 

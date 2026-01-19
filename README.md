@@ -18,7 +18,7 @@
 
 # TransSub
 
-macOS 平台视频字幕提取与翻译工具。
+免费macOS平台视频字幕提取与翻译工具。
 
 ![演示](Assets/demo.gif)
 
@@ -87,18 +87,19 @@ brew install ollama
 ### 4. 配置使用
 
 1. 在应用中配置 Whisper 模型路径
-2. 配置翻译服务：
+2. 配置翻译服务 (二选一)：
    - **Ollama**: 启动 `ollama serve`，下载模型 `ollama pull qwen3:8b`
    - **OpenAI API**: 配置 API Key
 3. 导入视频，一键生成字幕：
 ![快速开始](Assets/quick_start_cn.png)
-4. (可选) 配置VAD模型，推荐Hugging Face下载地址：**[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**
+4. (可选) 配置VAD模型，推荐Hugging Face下载地址：**[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**。
+（当视频中有很多无人声场景，或识别不够准确时，可尝试配置）
 
 
 
 > **注意**：ffmpeg 需要通过 Homebrew 安装，whisper.cpp 已内置 Metal 加速版本。
 
-## Ollama 本地翻译配置
+## （可选）Ollama 本地翻译模型配置
 
 ```bash
 # 1. 启动 Ollama 服务
@@ -115,7 +116,7 @@ ollama pull qwen3:8b
 Ollama设置示例：
 ![ollama](Assets/ollama_zh.png)
 
-## OpenAI 兼容/OpenRouter 线上翻译配置
+## OpenAI 兼容/OpenRouter API Key配置
 OpenAI兼容API设置示例：
 ![openai](Assets/openai_zh.png)
 
@@ -146,10 +147,16 @@ A: 推荐 `qwen3:8b`，中英文翻译效果优秀且资源占用合理。
 A: Macbook Pro m4 Pro 实测处理一个14分钟，244句对话的视频，启用VAD，调用本地ollama（qwen3:8B），用时为4分钟，调用deepseek api （一次处理20条对话），用时3分钟，其中翻译前的语言处理阶段耗时约为1分钟。
 
 **Q: 支持哪些翻译服务？**
-A: Ollama 本地翻译和 OpenAI 兼容 API。
+A: Ollama 本地翻译和 OpenAI兼容/OpenRouter API。
 
 **Q: 字幕格式兼容吗？**
 A: 标准 SRT 格式，VLC、IINA、MPV 等播放器均可使用。
+
+**Q: 打开 App 时提示"无法验证开发者"怎么办？**
+A: 这是 macOS 的安全机制，因为 App 未通过 Apple 审核。解决方法：
+1. 打开"系统设置" > "隐私与安全性"
+2. 在"安全性"区域找到"仍要打开"按钮
+3. 点击"仍要打开"确认运行
 
 ## 反馈
 
