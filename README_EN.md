@@ -105,7 +105,7 @@ ollama pull qwen3:8b
 
 Recommended models:
 - `qwen3:8b` - Balanced speed and quality, excellent Chinese/English translation
-- `qwen3:4b` - Lower memory usage, faster speed
+> Models that are too small, such as qwen3:4b, may produce errors. For now, testing shows that qwen3:8b runs well on a 16G Mac mini M2 with satisfactory results.
 
 Ollama settings example:
 ![ollama](Assets/ollama_en.png)
