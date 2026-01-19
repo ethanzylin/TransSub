@@ -153,7 +153,7 @@ A: 标准 SRT 格式，VLC、IINA、MPV 等播放器均可使用。
 
 ## 反馈
 
-如有建议或问题，请通过 [GitHub Issues](https://github.com/ethanzylin/TransSub/issues) 反馈，或发送邮件至 [transsub@ohmydoc.de](mailto:transsub@ohmydoc.de)。
+如有建议或问题，请通过 [GitHub Issues](https://github.com/ethanzylin/TransSub/issues) 反馈，或<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#114;&#97;&#110;&#115;&#115;&#117;&#98;&#64;&#111;&#104;&#109;&#121;&#100;&#111;&#99;&#46;&#100;&#101;">邮件联系我</a>。
 
 ## 许可证
 

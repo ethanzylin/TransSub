@@ -147,7 +147,7 @@ A: Standard SRT format, works with VLC, IINA, MPV and other players.
 
 ## Feedback
 
-For suggestions or issues, please submit via [GitHub Issues](https://github.com/ethanzylin/TransSub/issues), or email [transsub@ohmydoc.de](mailto:transsub@ohmydoc.de).
+For suggestions or issues, please submit via [GitHub Issues](https://github.com/ethanzylin/TransSub/issues), or <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#114;&#97;&#110;&#115;&#115;&#117;&#98;&#64;&#111;&#104;&#109;&#121;&#100;&#111;&#99;&#46;&#100;&#101;">Drop me an email</a>.
 
 ## License
 
