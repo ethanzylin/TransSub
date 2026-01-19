@@ -1,0 +1,30 @@
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+AppleDouble
+.LSOverride
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+*.suo
+ntvs_analysis_cache_*
+nastools_data/
