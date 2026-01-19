@@ -112,7 +112,9 @@ ollama pull qwen3:8b
 推荐模型：
 - `qwen3:8b` - 平衡速度与质量，中英文翻译效果优秀
 
->再小的模型比如`qwen3:4b`翻译会出错，暂时测试qwen3:8b是可以在16G的macmini m2上运行的。
+> 过小的模型比如`qwen3:4b`翻译会出错。
+
+> 目前测试qwen3:8b可以在48G的m4 pro芯片的macbook pro上流畅运行。
 
 Ollama设置示例：
 ![ollama](Assets/ollama_zh.png)
