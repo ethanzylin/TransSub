@@ -147,7 +147,7 @@ A: Ollama local translation and OpenAI compatible/OpenRouter API.
 A: Standard SRT format, works with VLC, IINA, MPV and other players.
 
 **Q: What to do when macOS says "Cannot verify developer"?**
-A: This is macOS security because the app hasn't been reviewed by Apple. Solution:
+A: This is macOS security mechanism. Solution:
 1. Open "System Settings" > "Privacy & Security"
 2. Find the "Open Anyway" button in the Security section
 3. Click "Open Anyway" to confirm
