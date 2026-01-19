@@ -88,11 +88,11 @@ brew install ollama
 
 1. 在应用中配置 Whisper 模型路径
 2. 配置翻译服务 (二选一)：
+   - (内存较小的电脑更推荐) **OpenAI API**: 配置 API Key
    - **Ollama**: 启动 `ollama serve`，下载模型 `ollama pull qwen3:8b`
-   - **OpenAI API**: 配置 API Key
 3. 导入视频，一键生成字幕：
 ![快速开始](Assets/quick_start_cn.png)
-4. (可选) 配置VAD模型，推荐Hugging Face下载地址：**[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**。
+1. (可选) 配置VAD模型，推荐Hugging Face下载地址：**[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**。
 （当视频中有很多无人声场景，或识别不够准确时，可尝试配置）
 
 

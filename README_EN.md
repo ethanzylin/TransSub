@@ -83,8 +83,8 @@ Recommended models:
 
 1. Configure Whisper model path in the app
 2. Configure translation service:
-   - **Ollama**: Start `ollama serve`, download model `ollama pull qwen3:8b`
    - **OpenAI API**: Configure API Key
+   - **Ollama**: Start `ollama serve`, download model `ollama pull qwen3:8b`
 3. Import video, generate subtitles with one click:
 ![Quick Start](Assets/quick_start_en.png)
 4. (Optional) Configure VAD model, recommended Hugging Face download: **[ggml-org/whisper-vad](https://huggingface.co/ggml-org/whisper-vad/tree/main)**.
