@@ -143,7 +143,7 @@ A: 从 [ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp/tree
 A: 推荐 `qwen3:8b`，中英文翻译效果优秀且资源占用合理。
 
 **Q: 转写速度如何？**
-A: Macbook Pro m4 Pro 实测处理一个14分钟，244句对话的视频，启用VAD，调用本地ollama（qwen3:8B），用时为4分钟，调用deepseek api （一次处理20条对话），用时3分钟，其中翻译钱的语言处理阶段耗时约为1分钟。。
+A: Macbook Pro m4 Pro 实测处理一个14分钟，244句对话的视频，启用VAD，调用本地ollama（qwen3:8B），用时为4分钟，调用deepseek api （一次处理20条对话），用时3分钟，其中翻译前的语言处理阶段耗时约为1分钟。
 
 **Q: 支持哪些翻译服务？**
 A: Ollama 本地翻译和 OpenAI 兼容 API。
@@ -158,3 +158,9 @@ A: 标准 SRT 格式，VLC、IINA、MPV 等播放器均可使用。
 ## 许可证
 
 闭源软件，仅供个人使用。
+
+## 支持作者☕
+
+<a href="https://buymeacoffee.com/zyzzz">
+  <img src="Assets/buymeacoffee.png" alt="Buy Me a Coffee" width=200 />
+</a>

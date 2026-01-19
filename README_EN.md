@@ -152,3 +152,9 @@ For suggestions or issues, please submit via [GitHub Issues](https://github.com/
 ## License
 
 Closed source software, for personal use only.
+
+## Support Me ☕
+
+<a href="https://buymeacoffee.com/zyzzz">
+  <img src="Assets/buymeacoffee.png" alt="Buy Me a Coffee" width=200 />
+</a>
