@@ -99,6 +99,15 @@ brew install ollama
 
 > **注意**：ffmpeg 需要通过 Homebrew 安装，whisper.cpp 已内置 Metal 加速版本。
 
+## OpenAI 兼容/OpenRouter API Key配置
+OpenAI兼容API设置示例：
+![openai](Assets/openai_zh.png)
+
+OpenRouter API设置示例：
+![openai](Assets/openrouter_zh.png)
+
+
+
 ## （可选）Ollama 本地翻译模型配置
 
 ```bash
@@ -119,18 +128,12 @@ ollama pull qwen3:8b
 Ollama设置示例：
 ![ollama](Assets/ollama_zh.png)
 
-## OpenAI 兼容/OpenRouter API Key配置
-OpenAI兼容API设置示例：
-![openai](Assets/openai_zh.png)
-
-OpenRouter API设置示例：
-![openai](Assets/openrouter_zh.png)
-
 ## 系统要求
 
 - macOS 14.0+ (Sonoma 或更新版本)
 - Apple Silicon (M1/M2/M3/M4)
 - [Homebrew](https://brew.sh)（用于安装依赖）
+
 
 ## 常见问题
 

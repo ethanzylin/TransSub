@@ -93,6 +93,15 @@ Recommended models:
 
 > **Note**: ffmpeg needs to be installed via Homebrew, whisper.cpp comes with Metal acceleration built-in.
 
+
+## OpenAI Compatible / OpenRouter API Key Configuration
+OpenAI compatible API settings example:
+![openai](Assets/openai_en.png)
+
+OpenRouter API settings example:
+![openai](Assets/openrouter_en.png)
+
+
 ## (Optional) Ollama Local Translation Model Configuration
 
 ```bash
@@ -112,12 +121,6 @@ Recommended models:
 Ollama settings example:
 ![ollama](Assets/ollama_en.png)
 
-## OpenAI Compatible / OpenRouter API Key Configuration
-OpenAI compatible API settings example:
-![openai](Assets/openai_en.png)
-
-OpenRouter API settings example:
-![openai](Assets/openrouter_en.png)
 
 ## System Requirements
 
